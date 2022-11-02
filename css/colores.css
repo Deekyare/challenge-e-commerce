@@ -1,5 +1,10 @@
 :root {
-    --col-de-texto: #fdfdfd;
-    --col-btn: #2a7ae4;
-    --col-categorias:#464646;
-  }
+  --col-de-texto: #fdfdfd;
+  --col-btn: #2a7ae4;
+  --col-categorias: #464646;
+  --col-contacto: #eaf2fd;
+  --col-gris: #E5E5E5;
+}
+html{
+  font-family: 'Raleway', sans-serif;
+}

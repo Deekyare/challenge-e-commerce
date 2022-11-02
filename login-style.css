@@ -1,0 +1,125 @@
+.body{
+  color: white;
+}
+
+.login{
+position: relative;
+background: var(--col-gris);
+height: 300px;
+}
+.encabezado{
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.login__titulo {
+  font-weight: 700;
+  color: black;
+  margin-top: 60px;
+}
+
+.email__usuario {
+  padding: 0px;
+  width: 423px;
+  height: 56px;
+  border: outset;
+}
+.contraseña {
+  padding: 0px;
+  width: 423px;
+  height: 56px;
+  border: outset;
+}
+.box__login{
+  flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.entrar{
+  width: 423px;
+  height: 37px;
+  color: var(--col-de-texto);
+  background-color: var(--col-btn);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 50px);
+  }
+  .entrar{
+    width: 80px;
+  }
+  .search{
+    background: #F5F5F5;
+  }
+  .lista__links{
+    gap: 0px;
+  }
+  .img__logo__contacto{
+    display: block;
+  }
+
+
+  }
+  @media screen and (max-width: 360px) {
+    .container {
+      width: calc(100% - 50px);
+    }
+    .encabezado{
+      justify-content: space-between;
+    }
+    .search{
+      background: none;
+    }
+    #search{
+      display: none;
+    }
+    .head__logo{
+      width: 100px;
+      padding-bottom: 10px;
+    }
+    .login{
+      height: 270px;
+    }
+    .entrar{
+      width: 80px;
+    }
+    .lista__links{
+      gap: 0px;
+    }
+    .contacto{
+      height: 560px;
+    }
+    .lista__links{
+      align-items: center;
+    }
+    .contacto__items{
+      flex-direction: column;
+      align-items: center;
+    }
+    .img__logo__contacto{
+      display: block;
+    }
+    .email__usuario{
+      width: 275;
+      height: 41px;
+    }
+  .contraseña{
+    width: 275;
+    height: 41px;
+  }
+  .nosotros{
+    margin-top: 140px;
+    padding-left: 255px;
+    padding-top: 20px;    
+    
+
+
+  }
+ 
+}

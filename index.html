@@ -5,68 +5,251 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>AluraGeek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/colores.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/colores.css" />
+    <link rel="stylesheet" href="css/responsividad.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
   </head>
 
   <body>
-
     <header class="encabezado container">
-     <img class="head__logo" src="imagenes/Logo.png" alt="Logo" />
-      <div id="search"> 
-        <input type="search" id="search" placeholder="Buscar"/>
-      </div>  
-        <button class="btn-login" type="submit">Login</button>
-        </div>
+      <img class="head__logo" src="imagenes/Logo.png" alt="Logo" />
+      <div class="search">
+        <input type="search" id="search" placeholder="Qué desea buscar?" />
+        <i class="lupa"><img src="imagenes/Vector.png" alt=""/></i>
+      </div>
+      <button class="btn__login" type="submit">Login</button>
     </header>
-    
+
     <main>
-      <section class="banner full-width">
-        <img class="banner-imagen full-width" src="imagenes/banner-image.png" alt="banner-imagen">
+      <section class="banner full__width">
+        <img
+          class="banner__imagen full__width"
+          src="imagenes/banner-image.png"
+          alt="banner-imagen"
+        />
         <div class="container">
-          <div class="texto-principal">
+          <div class="texto__principal">
             <p class="titulo">Noviembre promocional</p>
             <p class="subtitulo">Productos selecionados con 33% de descuento</p>
-          <button class="btn">Ver consolas</button>
-        </div>
-         
+            <button class="btn">Ver consolas</button>
+          </div>
         </div>
       </section>
 
       <section class="productos container">
-        <div class="productos-titulo" >
+        <div class="titulos__secciones">
           <p class="categorias">Star wars</p>
-          <button class="btn-ver-mas" type="next">Ver más<img class="flecha" src="imagenes/section-productos/Vectorflecha.png" alt="flecha"></button>
+          <button class="btn__ver__mas" type="next">
+            Ver más<img
+              class="flecha"
+              src="imagenes/section-productos/Vectorflecha.png"
+              alt="flecha"
+            />
+          </button>
         </div>
 
         <div class="imagenes">
-          <div> <img src="imagenes/section-productos/producto1.png" alt="imagen1">
-            <p class="product-tipo">Producto XYZ</p>
-            <p class="product-precio">$60</p>
-            <button class="btn-ver-mas" type="next">Ver más</button>
+          <div class="imagen-container">
+            <img src="imagenes/section-productos/producto1.png" alt="imagen1" width="100%"/>
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
           </div>
-          <div> <img src="imagenes/section-productos/producto2.png" alt="imagen2"> <p class="product-tipo">Producto XYZ</p>
-         <p class="product-precio">$60</p> <button class="btn-ver-mas" type="next">Ver más</button></div>
-          <div>  <img src="imagenes/section-productos/producto3.png" alt="imagen3"> <p class="product-tipo">Producto XYZ</p>
-         <p class="product-precio">$60</p><button class="btn-ver-mas" type="next">Ver más</button></div>
-          <div><img src="imagenes/section-productos/producto4.png" alt="imagen4"> <p class="product-tipo">Producto XYZ</p>
-         <p class="product-precio">$60</p> <button class="btn-ver-mas" type="next">Ver más</button></div>
-          <div> <img src="imagenes/section-productos/producto5.png" alt="imagen5"> <p class="product-tipo">Producto XYZ</p>
-         <p class="product-precio">$60</p> <button class="btn-ver-mas" type="next">Ver más</button></div>
-          <div><img src="imagenes/section-productos/producto6.png" alt="imagen6"> <p class="product-tipo">Producto XYZ</p>
-         <p class="product-precio">$60</p> <button class="btn-ver-mas" type="next">Ver más</button></div>
+          <div class="imagen-container">
+            <img src="imagenes/section-productos/producto2.png" alt="imagen2" width="100%"/>
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="imagen-container ocultoCel">
+            <img src="imagenes/section-productos/producto3.png" alt="imagen3" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+            <div class="imagen-container ocultoCel">
+              <img
+                src="imagenes/section-productos/producto4.png"
+                alt="imagen4"
+                width="100%"
+              />
+              <p class="product__tipo">Producto XYZ</p>
+              <p class="product__precio">$60</p>
+              <button class="btn__ver__mas" type="next">Ver más</button>
+            </div>
+            <div class="imagen-container oculto">
+              <img
+                src="imagenes/section-productos/producto5.png"
+                alt="imagen5"
+                width="100%"
+              />
+              <p class="product__tipo">Producto XYZ</p>
+              <p class="product__precio">$60</p>
+              <button class="btn__ver__mas" type="next">Ver más</button>
+            </div>
+            <div class="imagen-container oculto">
+              <img
+                src="imagenes/section-productos/producto6.png"
+                alt="imagen6"
+                width="100%"
+              />
+              <p class="product__tipo">Producto XYZ</p>
+              <p class="product__precio">$60</p>
+              <button class="btn__ver__mas" type="next">Ver más</button>
+            </div>
         </div>
-
       </section>
 
-      <section class="consolas container"></section>
+      <section class="consolas container">
+        <div class="titulos__secciones">
+          <p class="categorias">Consolas</p>
+          <button class="btn__ver__mas" type="next">
+            Ver más<img
+              class="flecha"
+              src="imagenes/section-productos/Vectorflecha.png"
+              alt="flecha"
+            />
+          </button>
+        </div>
 
-      <section class="varios container"></section>
+        <div class="imagenes">
+          <div>
+            <img src="imagenes/section-consolas/consola1.png" alt="imagen1" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div>
+            <img src="imagenes/section-consolas/consola2.png" alt="imagen2" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="ocultoCel">
+            <img src="imagenes/section-consolas/consola3.png" alt="imagen3" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="ocultoCel">
+            <img src="imagenes/section-consolas/consola4.png" alt="imagen4" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="oculto">
+            <img src="imagenes/section-consolas/consola5.png" alt="imagen5" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="oculto">
+            <img src="imagenes/section-consolas/consola6.png" alt="imagen6" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+        </div>
+      </section>
 
-      <section class="contacto container"></section>
+      <section class="varios container">
+        <div class="titulos__secciones">
+          <p class="categorias">Diversos</p>
+          <button class="btn__ver__mas" type="next">
+            Ver más<img
+              class="flecha"
+              src="imagenes/section-productos/Vectorflecha.png"
+              alt="flecha"
+            />
+          </button>
+        </div>
 
-      <section class="footer container"></section>
+        <div class="imagenes">
+          <div>
+            <img src="imagenes/section-varios/varios1.png" alt="imagen1" width="100%"/>
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div>
+            <img src="imagenes/section-varios/varios2.png" alt="imagen2" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="ocultoCel">
+            <img src="imagenes/section-varios/varios3.png" alt="imagen3" width="100%"/>
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="ocultoCel">
+            <img src="imagenes/section-varios/varios4.png" alt="imagen4"  width="100%"/>
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="oculto">
+            <img src="imagenes/section-varios/varios5.png" alt="imagen5" width="100%"/>
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+          <div class="oculto">
+            <img src="imagenes/section-varios/varios6.png" alt="imagen6" width="100%" />
+            <p class="product__tipo">Producto XYZ</p>
+            <p class="product__precio">$60</p>
+            <button class="btn__ver__mas" type="next">Ver más</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacto full-width">
+        <div class="contacto__items container">
+          <div class="img__logo__contacto">
+            <img src="imagenes/Logo.png" alt="logo" />
+        
+            <ul class="lista__links">
+              <li>Quiénes somos</li>
+              <li>Política de privacidad</li>
+              <li>Programa de fidelidad</li>
+              <li>Nuestras tiendas</li>
+              <li>Quiero ser franquiciado</li>
+              <li>Anuncie aquí</li>
+            </ul>
+          </div>
+
+          <div class="nosotros">
+            <p class="nosotros__titulo">Hable con nosotros</p>
+            <input
+              class="nombre__usuario"
+              type="text"
+              name="nombre"
+              placeholder="Nombre"
+            />
+
+            <input
+              class="mensaje"
+              type="text"
+              name="mensaje"
+              placeholder="Escribe tu mensaje"
+            />
+            <button type="submit" class="btn__enviar">Enviar mensaje</button>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="footer container">
+        <p>Desarrollado por Silvia Giardini</p>
+        <p>2021</p>
+      </section>
     </main>
   </body>
   <script src="main.js"></script>
