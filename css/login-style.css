@@ -2,10 +2,9 @@
   color: white;
 }
 
-.login{
+.fondo{
 position: relative;
 background: var(--col-gris);
-height: 300px;
 }
 .encabezado{
   gap: 30px;

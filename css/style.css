@@ -86,7 +86,7 @@ main {
   justify-content: space-between;
   margin-top: 30px;
   align-items: center;
-  height: 38px;
+  height: 70px;
 }
 .categorias {
   font-weight: 400;
@@ -107,7 +107,7 @@ main {
   padding: 10px;
 }
 .productos {
-  height: 306px;
+  height: 355px;
 }
 .imagenes {
   display: flex;
