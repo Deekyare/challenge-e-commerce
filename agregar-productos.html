@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Agregar producto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/colores.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/login-style.css" />
+    <link rel="stylesheet" href="css/add-product.css" />
+ 
+</head>
+<body>
+  <main>
+   <header class="encabezado container">
+    <img class="head__logo" src="imagenes/Logo.png" alt="Logo" />
+    <div class="search">
+      <input type="search" id="search" placeholder="Qué desea buscar?" />
+      <i class="lupa"><img src="imagenes/Vector.png" alt=""/></i>
+    </div>
+    <button class="btn__login" id="btn__menu" type="submit">Menu Administrador</button>
+  </header>
+ 
+
+    <section class="new__product full__width">
+     <div class="box__add">
+      <p class="add__titulo">Agregar nuevo producto</p>
+      <input
+        class="input__product"
+        type="url"
+        name="add__img"
+        placeholder="URL de la imagen"
+      />
+
+      <input
+        class="input__product"
+        type="text"
+        name="categorias"
+        placeholder="Categoria"
+      />
+      <input
+      class="input__product"
+      type="text"
+      name="nombre__product"
+      placeholder="Nombre del producto"
+    />
+    <input
+    class="input__product"
+    type="number"
+    name="price__product"
+    placeholder="Precio del producto"
+  />
+  <input
+  class="input__product input__grande"
+  type="text"
+  name="descripcion__product"
+  placeholder="Descripcion del producto"
+/>
+
+      <button type="submit" class="entrar" id="entrar__producto">Agregar productos</button>
+
+    </div>
+
+    </section>
+ 
+    <section class="contacto full-width">
+        <div class="contacto__items container">
+          <div class="img__logo__contacto">
+            <img src="imagenes/Logo.png" alt="logo" />
+        
+            <ul class="lista__links">
+              <li>Quiénes somos</li>
+              <li>Política de privacidad</li>
+              <li>Programa de fidelidad</li>
+              <li>Nuestras tiendas</li>
+              <li>Quiero ser franquiciado</li>
+              <li>Anuncie aquí</li>
+            </ul>
+          </div>
+
+          <div class="nosotros">
+            <p class="nosotros__titulo">Hable con nosotros</p>
+            <input
+              class="nombre__usuario"
+              type="text"
+              name="nombre"
+              placeholder="Nombre"
+            />
+
+            <input
+              class="mensaje"
+              type="text"
+              name="mensaje"
+              placeholder="Escribe tu mensaje"
+            />
+            <button type="submit" class="btn__enviar">Enviar mensaje</button>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="footer container">
+        <p>Desarrollado por Silvia Giardini</p>
+        <p>2021</p>
+      </section>
+    </main>
+  </body>
+  <script src="main.js"></script>
+
+</html>

@@ -49,7 +49,7 @@ height: 300px;
 
 @media screen and (max-width: 768px) {
   .container {
-    width: calc(100% - 50px);
+    width: calc(100% - 30px);
   }
   .entrar{
     width: 80px;
@@ -68,7 +68,7 @@ height: 300px;
   }
   @media screen and (max-width: 360px) {
     .container {
-      width: calc(100% - 50px);
+      width: calc(100% - 30px);
     }
     .encabezado{
       justify-content: space-between;
@@ -117,9 +117,9 @@ height: 300px;
     margin-top: 140px;
     padding-left: 255px;
     padding-top: 20px;    
-    
-
-
   }
- 
-}
+  
+  }
+
+
+  
